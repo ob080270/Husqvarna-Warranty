@@ -36,7 +36,6 @@ The project contains form files (with `.cls` and `.txt` extensions) and VBA modu
    - **frDfSelect** is a form for selecting defect codes (Defect Codes).
    - It can switch languages (Russian/English) for structural groups and symptom descriptions, and also filter lists by pattern matching.
    - By clicking a button, you can **transfer** the selected code to the main form (see screenshot HQ_17_TransferToClaim.jpg).
-   - - **Important**: Access to the “defect code select” command (see **HQ_011_DefectCodeSelect.jpg**) is provided via a **custom context menu** called **usrAP**. You need to enable it first in **File → Options → Current Database → Context Menu**. Set it to **usrAP**.
 
 3. **Warranty label printing**  
    - The project provides reports (for example, **Report_rpBirka.cls**) that can be generated for printing:
